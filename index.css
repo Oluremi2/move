@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 100vh;
+    width: 100%;
+    /* background: url(); */
+    background-position: center;
+}
+
+header nav{
+    width: 100%;
+}
+
+header .second.name{
+    color: pink;
+     font-size: 75px;
+     font-weight: 600;
+     margin: -20px 0 0 -3px;
+}
+
+header .text-content .name{
+    color: pink;
+     font-size: 75px;
+     font-weight: 600;
+     margin: -20px 0 0 -3px;
+ }
+
+.navbar{
+    width: 90%;
+    display: flex;
+    margin: 20px auto 0 auto;
+    align-items: center;
+    justify-content: space-around;
+}
+nav .link{
+    display: flex;
+}
+nav .link li{
+    list-style: none;
+    margin: 0 12px;
+}
+nav .link a{
+    color:blue;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.icon img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+nav .search{
+    position: relative;
+    height: 40px;
+    width: 250px;
+}
+
+.second{
+    position: absolute;
+    top: 33%;
+    left: 7%;
+}
+
+.second .button button{
+    outline: none;
+    margin: 0 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    color: #fff;
+    padding: 8px 16px;
+    background-image: linear-gradient( 135deg, #2AFADF     10%, #C346C2 100%);
+}
+
+.buttons{
+    margin: 20px 0 0 40px;
+}
+
+header .link2{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+}
+
+.content .mary img{
+    position: absolute;
+    height: 95%;
+    bottom: 0;
+    right: 80px;
+ }
+
+.link2 a{
+    margin-top: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    opacity: 0.7;
+    color: pink;
+ }
